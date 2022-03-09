@@ -44,7 +44,7 @@ public class TestForm {
         ///селектор на загрузку файла по указанному пути
         $("#uploadPicture").uploadFile(new File("src/test/down.load"));
         //заполняем текстовое поле адрес
-        $("#currentAddress").setValue("Penza");
+        $("#currentAddress").setValue("Moscow");
         //выбор из выпадающего списка с указанием значения клик на выбранное значение
         $("#react-select-3-input").setValue("Haryana").pressEnter();
         $("#react-select-4-input").setValue("Karnal").pressEnter();
