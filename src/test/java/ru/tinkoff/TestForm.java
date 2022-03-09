@@ -27,7 +27,7 @@ public class TestForm {
         //$("[for='gender-radio-2']").click();
         $(byText("Male")).click();
         //заполняем текстовое поле телефон
-        $("#userNumber").setValue("9003153220");
+        $("#userNumber").setValue("9954911199");
         //кликаем на поле дата чтобы всплыл календарь
         $("#dateOfBirthInput").click();
         //выбор года из календаря
