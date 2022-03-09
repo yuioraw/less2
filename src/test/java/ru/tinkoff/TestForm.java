@@ -61,7 +61,7 @@ public class TestForm {
                 text("Subjects"), text("Economics"),
                 text("Hobbies"), text("Sports"),
                 text("Picture"), text("down.load"),
-                text("Address"), text("Penza"),
+                text("Address"), text("Moscow"),
                 text("State and City"), text("Haryana Karnal")
         );
     }
