@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-
+// Изменения в коде для ДЗ 11
 
 public class TestForm {
     @Test
@@ -27,7 +27,7 @@ public class TestForm {
         //$("[for='gender-radio-2']").click();
         $(byText("Male")).click();
         //заполняем текстовое поле телефон
-        $("#userNumber").setValue("9003153220");
+        $("#userNumber").setValue("9954911199");
         //кликаем на поле дата чтобы всплыл календарь
         $("#dateOfBirthInput").click();
         //выбор года из календаря
@@ -44,7 +44,7 @@ public class TestForm {
         ///селектор на загрузку файла по указанному пути
         $("#uploadPicture").uploadFile(new File("src/test/down.load"));
         //заполняем текстовое поле адрес
-        $("#currentAddress").setValue("Penza");
+        $("#currentAddress").setValue("Moscow");
         //выбор из выпадающего списка с указанием значения клик на выбранное значение
         $("#react-select-3-input").setValue("Haryana").pressEnter();
         $("#react-select-4-input").setValue("Karnal").pressEnter();
@@ -56,12 +56,12 @@ public class TestForm {
                 text("Student Name"), text("Andrey Telezhenko"),
                 text("Student Email"), text("andrey@telezhenko.ru"),
                 text("Gender"), text("Male"),
-                text("Mobile"), text("9003153220"),
+                text("Mobile"), text("9954911919"),
                 text("Date of Birth"), text("06 June,1991"),
                 text("Subjects"), text("Economics"),
                 text("Hobbies"), text("Sports"),
                 text("Picture"), text("down.load"),
-                text("Address"), text("Penza"),
+                text("Address"), text("Moscow"),
                 text("State and City"), text("Haryana Karnal")
         );
     }
